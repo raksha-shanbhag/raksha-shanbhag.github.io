@@ -1,0 +1,69 @@
+.Pic {
+    position: relative;
+    border-radius: 15%;
+    height : auto;
+    width : 100%;
+}
+
+.workExp {
+    width: inherit;
+    text-align: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.w-left {
+    height: inherit;
+    width : 35%;
+}
+
+.w-right {
+    height: inherit;
+    width : 65%;
+    text-align: left;
+    padding: "1rem";
+}
+
+ul {
+    list-style-type: square;
+}
+
+.work-Date {
+    float: left;
+    border-style: dashed;
+    padding: 0.5vh 0.7vw;
+    width: 7vw;
+    height: 100%;
+}
+
+.work-exp-row {
+    display: flex;
+    width: 80vw;
+}
+
+.work-details {
+    float: left;
+    width: 69vw;
+    margin-left: 4vw;
+}
+
+.accordion-settings {
+    height: 2.25rem;
+    width: 7rem;
+}
+
+.accordion-job h4{
+    color: grey;
+    text-align: left;
+}
+
+.icon-props {
+    height: inherit;
+    width: auto;
+    margin-right: 1.5rem;
+}
+
+.block {
+    margin : 30px auto;
+    width : 100%;
+}

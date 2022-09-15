@@ -1,0 +1,45 @@
+.workExpList {
+    padding: 1.5rem 8vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: calc(100vh - 3.1rem);
+    height: max-content;
+}
+
+.exp-1 {
+    animation: 2s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+}
+
+.exp-2 {
+    animation: 3s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+}
+
+.exp-3 {
+    animation: 4s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+}
+
+.exp-4 {
+    animation: 5s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+}
+
+.exp-5 {
+    animation: 6s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+}
+
+.wex-texts {
+    width: 65%;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #d35252;
+}

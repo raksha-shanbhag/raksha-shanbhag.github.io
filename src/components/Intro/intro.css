@@ -1,0 +1,222 @@
+.moving {
+  position : absolute;
+  height : 100vh;
+  width : 100vw;
+}
+
+.moving-bg {
+  box-sizing: content-box;
+  padding-bottom: 20rem;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./../../img/long_code.jpg');
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  background-size: cover;
+  animation: moving 25s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moving {
+  from {
+    transform: translateY(0)
+  }
+  to {
+    transform: translateY(-20rem)
+  }
+}
+
+.i-page {
+  display: flex;
+  height: 80vh;
+  top: 0;
+}
+
+.i-left {
+  font-size: 2rem;
+  flex: 1;
+  padding: 6.25rem 0 0 4.69rem;
+  margin : 0;
+  height: 80vh;
+  position: relative;
+}
+
+.i-right{
+  flex: 1;
+  padding: 3.125rem 4.69rem 0 0;
+  height: 80vh;
+}
+
+.i-card {
+  width: 60%;
+  height: 75vh;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin : 0 auto;
+}
+
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
+}
+
+.ice {
+  padding : 1rem;
+  color: white;
+  width: max-content;
+  background-color: black;
+}
+
+.job {
+  padding: 1.25rem;
+  font-weight: 700;
+  color : #d35252;
+  width: max-content;
+  background-color: black;
+}
+
+.pic-bg {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%) ;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.intro-icons {
+  padding: 10vh;
+  padding-left: 0;
+  display: flex;
+  position: absolute;
+}
+
+.icon {
+  margin: 0 2rem;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+  border: 1rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.icon:hover{
+  color: grey;
+}
+
+.resume-icon {
+  margin: 0 2rem;
+  height: 3rem;
+  width: max-content;
+  font-weight: 900;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.resume-icon:hover{
+  color: grey;
+}
+
+.picture{
+  width: 92vw;
+  height: 92vh;
+  object-fit: cover;
+  position: absolute;
+}
+
+.link {
+  color: white;
+  flex:1;
+  background-color: rgb(59, 59, 59);
+  border-color: black;
+  text-transform: capitalize;
+  margin: 10px;
+  width: 50px
+}
+
+.link:hover {
+  color: white;
+  border-color: white;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+}
+
+.rightPane {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.down {
+  text-align: left;
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #b45;
+  border: none;
+  color: #fff;
+  padding: 10px 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.bounce {
+  -webkit-animation: bounce 7s infinite;
+          animation: bounce 7s infinite;
+}
+
+@-webkit-keyframes bounce {
+  20%, 53%, 80%, 0%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+}
+@keyframes bounce {
+  20%, 53%, 80%, 0%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+}
+
+.i-page a {
+  text-decoration:none;
+  color: inherit;
+}
+
+.i-page a:visited {
+  text-decoration:none;
+  color: inherit;
+}
