@@ -29,6 +29,7 @@
 
 .i-page {
   display: flex;
+  flex-direction: row;
   height: 80vh;
   top: 0;
 }
@@ -38,7 +39,6 @@
   flex: 1;
   padding: 6.25rem 0 0 4.69rem;
   margin : 0;
-  height: 80vh;
   position: relative;
 }
 
@@ -219,4 +219,10 @@
 .i-page a:visited {
   text-decoration:none;
   color: inherit;
+}
+
+.typing-text {
+  /* overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: inherit; */
 }

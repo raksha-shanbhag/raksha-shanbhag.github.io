@@ -9,7 +9,7 @@ import {MdEmail} from 'react-icons/md';
 
 const ContactMe = ({page}) => {
     const FormRef = useRef(null);
-    const serviceID = 'Connect_Portfolio' ;
+    const serviceID = 'service_kog0ccf' ;
     const templateID = 'portfolio_msg_template' ;
     const userID = 'user_vEx0iaM3qBnEhSmxGYw9G';
     

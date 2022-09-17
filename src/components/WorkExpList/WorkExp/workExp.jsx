@@ -17,14 +17,15 @@ const workExp = ({
     picture,
     company,
     last,
-    stack
+    stack,
+    workPic
 }) => {
     const workExpPts = workExpTermPoints[title];
     console.log(workExpPts)
 
     const workTermPoints = (
         workExpPts.map((work, index) => {
-            return(<li key={index}>{work.one}</li>);
+            return(<li key={index} className="point">{work.one}</li>);
         })
     )
 
@@ -32,17 +33,18 @@ const workExp = ({
         <div className='workExp'>
             <div className='w-left'>
                 <img
-                    src={Profile}
+                    src={workPic}
                     className='Pic'
                 />
             </div>
             <div className='w-right'>
+                <div className='tech-stack'>
+                    <h2>Tech Stack</h2>
+                    <h4>{workExpPts[0].stack}</h4>
+                </div>
                 <ul className='text-wrap'>
                     {workTermPoints}
                 </ul>
-                <div>
-                    Tech Stack
-                </div>
             </div>
         </div>
     )
@@ -59,11 +61,6 @@ const workExp = ({
                     {
                         backgroundColor : "white",
                         margin: "0"
-                        // borderStyle: "dashed",
-                        // borderLeftStyle: "dashed",
-                        // borderRightStyle: "dashed",
-                        // borderTopStyle: "dashed",
-                        // borderBottom: last ? "dashed" : "none"
                     }
                 }
             >

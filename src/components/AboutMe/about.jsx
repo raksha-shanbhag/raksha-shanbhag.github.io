@@ -1,18 +1,10 @@
 import './about.css'
-import aboutMe from '../../img/aboutMe.PNG'
 import Navbar from '../Navbar/navbar';
 
-import {
-  faPython,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import mix2 from '../../img/about/mix2.PNG';
+import mix from '../../img/about/mix.PNG';
+import Frontend from '../../img/about/frontend.PNG';
+import Backend from '../../img/about/backend.PNG';
 
 const buttonStyle = {
   width: "30px",
@@ -34,12 +26,75 @@ const properties = {
 
 const AboutMe = () => {
     return (
-      <div>
+      <div className="a-page">
         <Navbar />
         <h1 className="a-title">About Me</h1>
         <div className="a"> 
-          {/* <div className="a-left"> */}
-            <div className="stage-cube-cont">
+          <div className="a-right">
+            <div className="a-card">
+              <h2 className="a-sub">
+                I'm Raksha Shanbhag, a third-year Computer Engineering student at University of Waterloo.
+              </h2>
+              <h2 className="a-desc">
+                I've always had a passion to solve problems with creative solutions. 
+                My career in tech started about 3 years ago, when I had my first internship with Ford. I recent
+              </h2>
+            </div>
+          </div>
+          <div className="a-left">
+            <div class="rotating-box">
+              <div class="single-rb">
+                <div class="front-side"><img alt="" src={mix} className='rotating-image'/></div>
+                <div class="back-side"><img alt="" src={Frontend} className='rotating-image'/></div>
+                <div class="left-side"><img alt="" src={Backend} className='rotating-image'/></div>
+                <div class="right-side"><img alt="" src={mix2} className='rotating-image'/></div>
+                <div class="top-side"><img alt="" src={mix2} className='rotating-image'/></div>
+                <div class="bottom-side"><img alt="" src={mix2} className='rotating-image'/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+}
+
+        /* <div className="a"> 
+          <div className="a-left">
+            <div className="a-card">
+              <h2 className="a-sub">
+                It is a long established fact that a reader will be distracted by the
+                readable content.
+              </h2>
+              <h2 className="a-desc">
+                Can I wish on the stars for another day. Cause it feels like I am all on my own tonight
+                and I find, myself, in pieces.
+              </h2>
+            </div>
+          </div> 
+          <div className="a-right"> */
+            /* <div className="stage-cube-cont">
+              <div className="cubespinner">
+                <div className="face1">
+                  <FontAwesomeIcon icon={faPython} color="#DD0031" />
+                </div>
+                <div className="face2">
+                  <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                </div>
+                <div className="face3">
+                  <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                </div>
+                <div className="face4">
+                  <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                </div>
+                <div className="face5">
+                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                </div>
+                <div className="face6">
+                  <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                </div>
+              </div>
+            </div> */
+            /* <div className="stage-cube-cont">
               <div className="cubespinner">
                 <div className="spinner face1">
                   <FontAwesomeIcon icon={faPython} color="#DD0031" />
@@ -54,27 +109,16 @@ const AboutMe = () => {
                   <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
                 </div>
                 <div className="spinner face5">
-                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-                </div>
+                  <img src={Ford} className="image-icons"/>
+                  {/* <FontAwesomeIcon icon={faJsSquare} color="white" /> */
+                /*</div>
                 <div className="spinner face6">
                   <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                 </div>
-            </div>
-          </div>
-          <div className="a-right">
-            <h2 className="a-sub">
-              It is a long established fact that a reader will be distracted by the
-              readable content.
-            </h2>
-            <h2 className="a-desc">
-              Can I wish on the stars for another day. Cause it feels like I am all on my own tonight
-              and I find, myself, in pieces.
-            </h2>
-          </div>   
-        </div>
-      </div>
-    );
-}
+              </div
+            </div>  */
+            /* </div> 
+          </div> */
 
 export default AboutMe;
 

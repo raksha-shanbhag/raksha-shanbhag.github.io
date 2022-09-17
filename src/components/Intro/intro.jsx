@@ -1,14 +1,11 @@
 import './intro.css';
 import Navbar from '../Navbar/navbar';
-import Profile from '../../img/profile_pic.PNG';
-import { Button, scopedCssBaselineClasses } from '@mui/material';
-import jsPDF from 'jspdf';
-import Resume from '../../img/Resume.png';
 import Typed from 'react-typed';
 import { gitHub, linkedIn, resumeLink } from '../../assets/constants';
-import Me from "../../img/aboutMe.PNG";
+import Me from "../../img/professional_pic.jpeg";
 import {ImGithub} from 'react-icons/im';
 import {GrLinkedin} from 'react-icons/gr';
+import {IoIosPaper} from 'react-icons/io'
 
 const Intro = ({page}) => {
     const openResume = () => {
@@ -24,28 +21,26 @@ const Intro = ({page}) => {
             <div className="i-page">
                     <div className="i-left">
                         <div className="ice">
-                            <h2 style={{color: "grey"}}>Hey, I'm </h2>
-                            <h1>Raksha Shanbhag</h1>
+                            <h1 style={{"text-shadow": "0 4px red"}}> Hey, I'm Raksha</h1>
                         </div>
                         <div className="job">
                             <Typed
                                 strings={[
-                                    "3rd Year Computer Engineering Student at Uwaterloo",
+                                    "3rd Year Computer Engineering Student",
                                     "Full Stack Developer",
                                     "Tech Enthusiast",
                                     "Problem Solver"
                                 ]}
                                 typeSpeed={120}
                                 backSpeed={80}
+                                className="typing-text"
                                 loop
                             />
                         </div>
                         <div className="intro-icons">
                             <a href = {gitHub} target="_blank"><ImGithub className="icon" /> </a>
                             <a href = {linkedIn} target="_blank"><GrLinkedin className="icon" /> </a>
-                            <a href = {resumeLink} target="_blank"> 
-                                <div className="resume-icon">Resume </div>
-                            </a>
+                            <a href = {resumeLink} target="_blank"><IoIosPaper className="icon" /> </a>
                         </div>
                     </div>
                     <div className="i-right">

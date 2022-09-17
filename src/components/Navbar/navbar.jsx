@@ -33,7 +33,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li`
   margin-right: 2.25rem;
-  font-weight: 600;
+  font-weight: bolder;
   font-size: 18px;
   width: max-content;
   height: inherit;

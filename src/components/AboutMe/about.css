@@ -1,42 +1,26 @@
+.a-page{
+  /* background-image: url("../../img/programmer.jpg");  */
+  /* background-color: black;  */
+  background-image: linear-gradient(to bottom, black, grey);
+  min-height: 100vh;
+  height: max-content;
+} 
+
 .a {
   display: flex;
-  align-items: center;
-  padding-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .a-left {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  width: 40%;
   height: 100%;
+  flex: 1;
 }
 
 .a-right {
-  flex: 1;
-  padding-right: 8vw;
-}
-
-.a-card.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: #333;
-}
-
-.a-card {
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
-  position: relative;
-  overflow: hidden;
-}
-
-.a-img {
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  width: 60%;
+  flex: 1;
 }
 
 .a-title {
@@ -44,108 +28,99 @@
   font-weight: 600;
   color: #d35252;
   text-align: center;
-  padding: 1.56rem 6.25rem 0;
+  padding: 1.56rem 7.5rem 0;
+}
+
+.a-card {
+  margin: 2rem;
+  margin-left: 8vw;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 2px solid red;
+  height: max-content;
+  border-color: black;
+  background-color: white;
+  opacity: 0.8;
 }
 
 .a-sub {
-  margin: 20px 0px;
+  margin: 1.25rem 0px;
 }
 
 .a-desc{
   font-weight: 300;
 }
 
-/* About page */
-
-.stage-cube-cont {
-  width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
+.rotating-box {
+  width: 15rem;
+  height: 15rem;
+  margin: 0.3125rem auto;
+  perspective: 22.5rem;
 }
 
-.cubespinner {
-  animation-name: spincube;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 12s;
+.rotating-image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.single-rb {
+  width: 15rem;
+  height: 15rem;
+  animation: rotate 15s linear infinite;
   transform-style: preserve-3d;
-  transform-origin: 100px 100px 0;
-  margin-left: calc(50% - 100px);
+  margin-top: 5.625rem;
 }
 
-.spinner {
+.single-rb img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.single-rb div {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-  background: rgba(201, 12, 12, 0.795);
-  text-align: center;
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 20px 0px lightyellow;
+  width: 15rem;
+  height: 15rem;
 }
 
-/* .cubespinner */
-.face1 {
-  transform: translateZ(100px);
-  color: #dd0031;
+.front-side {
+  transform: translateZ(7.5rem);
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-/* .cubespinner */
-.face2 {
-  transform: rotateY(90deg) translateZ(100px);
-  color: #f06529;
+.back-side {
+  transform: rotateY(180deg) translateZ(7.5rem);
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-/* .cubespinner */
-.face3 {
-  transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-  color: #28a4d9;
+.left-side {
+  transform: rotateY(-90deg) translateX(-7.5rem);
+  transform-origin: left;
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-/* .cubespinner */
-.face4 {
-  transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-  color: #5ed4f4;
+.right-side {
+  transform: rotateY(90deg) translateX(7.5rem);
+  transform-origin: right;
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-/* .cubespinner */
-.face5 {
-  transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-  color: #efd81d;
+.top-side {
+  transform: rotateX(-90deg) translateY(-7.5rem);
+  transform-origin: top;
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-/* .cubespinner.face6 { */
-.face6 {
-  transform: rotateX(-90deg) translateZ(100px);
-  color: #ec4d28;
+.bottom-side {
+  transform: rotateX(90deg) translateY(7.5rem);
+  transform-origin: bottom;
+  box-shadow: 0 0 0.75rem 0px white;
 }
 
-@keyframes spincube {
-  from,
-  to {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
   }
-  16% {
-    transform: rotateY(-90deg) rotateZ(90deg);
-  }
-  33% {
-    transform: rotateY(-90deg) rotateX(90deg);
-  }
-  50% {
-    transform: rotateY(-180deg) rotateZ(90deg);
-  }
-  67% {
-    transform: rotateY(-270deg) rotateX(90deg);
-  }
-  84% {
-    transform: rotateX(90deg);
+  100% {
+    transform: rotateY(360deg);
   }
 }
