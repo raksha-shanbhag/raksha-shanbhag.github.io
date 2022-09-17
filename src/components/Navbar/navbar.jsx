@@ -42,7 +42,7 @@ const MenuItem = styled.li`
 const Navbar = () => {
   return (
     <div>
-    <AppBar style={{ background:"black" }} position="fixed">
+    <AppBar style={{ background:"#212121" }} position="fixed">
       <Container>
         <Wrapper>
           <Menu>

@@ -18,7 +18,7 @@ export const workExpTermPoints = {
         { "one" : "Implemented GUI features using Python to run multiple test configurations at once, reducing manual work by 70%"},
     ],
     "Software Infrastructure Developer" : [
-        { "stack" : "C++, Google Testing Framework, QNX, Ubutuntu 16.04", "one" : "Fixed 25+ defects on Infotainment Software Architecture running on latest generation FORD vehicles using Ubuntu16.04 and QNX virtual environments"},
+        { "stack" : "C++, Google Testing Framework, QNX, Ubuntu 16.04", "one" : "Fixed 25+ defects on Infotainment Software Architecture running on latest generation FORD vehicles using Ubuntu16.04 and QNX virtual environments"},
         { "one" : "Developed Unit Tests to increase code coverage to 87% using Google’s C++ Testing Framework and STL Library"},
         { "one" : "Designed Shell Scripts that generate Unit Test coverage reports for the Framework files developed by team"}
 
