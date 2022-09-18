@@ -2,9 +2,9 @@
 import React, {useState} from 'react';
 import Intro from './components/Intro/intro';
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route
+  HashRouter,
+  Route,
+  Routes
 } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
@@ -21,8 +21,8 @@ const App = () => {
 
   return (
     <>
-      <div style ={{'paddingTop': '3.1rem'}} />
-      <Router>
+      <HashRouter>
+        <div style ={{'paddingTop': '3.1rem'}} />
         <Routes>
           <Route exact path='/' element={<Intro page={currentPage} />}></Route>
           <Route exact path='/about' element={<AboutMe page={currentPage} />}></Route>
@@ -30,7 +30,7 @@ const App = () => {
           <Route exact path='/projects' element={<ProjectsList page={currentPage} />}></Route>
           <Route exact path='/contact' element={<ContactMe page={currentPage} />}></Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 };

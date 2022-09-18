@@ -28,7 +28,7 @@ const ContactMe = ({page}) => {
     };
   
     return (
-        <div style = {{ backgroundColor: "#e49709" }}>
+        <div>
             <Navbar page = {page} />
             <div className= "ContactMe">
                 <div className="outer-card">

@@ -1,5 +1,4 @@
 import './projectDialog.css'
-import About from '../../AboutMe/about'
 
 import React, {useState, useRef, useEffect} from 'react';
 import Button from '@mui/material/Button';
@@ -10,6 +9,14 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
 const ProjectDialog = (props) => {
+  const content = () => {
+    return (
+      <div>
+        <h1>This is content of the card</h1>
+      </div>
+    );
+  }
+
   return (
     <div>
       <Dialog
@@ -28,7 +35,7 @@ const ProjectDialog = (props) => {
             id="scroll-dialog-description"
             tabIndex={-1}
           >
-              <About />
+             
           </DialogContentText>
         </DialogContent>
         <DialogActions>
