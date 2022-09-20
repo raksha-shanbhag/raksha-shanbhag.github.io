@@ -1,7 +1,7 @@
 .project {
     width: 30%;
     margin: 20px 10px;
-    height: 40vh;
+    height: 22rem;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px;
     overflow: hidden;
@@ -10,4 +10,14 @@
 
 .project:hover {
     box-shadow: 0 0 21px #f8797a; 
+}
+
+.project-title {
+    font-weight: 500;
+    color: black;
+    font-size: 2rem;
+}
+
+.image-props {
+    width: auto;
 }

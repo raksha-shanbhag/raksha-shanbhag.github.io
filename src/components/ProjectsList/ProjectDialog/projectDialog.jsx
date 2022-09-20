@@ -9,13 +9,16 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
 const ProjectDialog = (props) => {
-  const content = () => {
-    return (
+  const content = (
       <div>
-        <h1>This is content of the card</h1>
+        <div className="Description">
+          <h1>This is me</h1>
+          <a> Github link</a>
+          <a> Website </a> 
+        </div>
+        <img>This is content of the card</img>
       </div>
     );
-  }
 
   return (
     <div>
@@ -23,7 +26,7 @@ const ProjectDialog = (props) => {
         open={props.open}
         scroll={'paper'}
         fullWidth = {true}
-        maxWidth = {'md'}
+        maxWidth = {'sm'}
         aria-labelledby="scroll-dialog-title"
         aria-describedby="scroll-dialog-description"
       >
@@ -31,12 +34,7 @@ const ProjectDialog = (props) => {
             {props.title}
         </DialogTitle>
         <DialogContent dividers={true}>
-          <DialogContentText
-            id="scroll-dialog-description"
-            tabIndex={-1}
-          >
-             
-          </DialogContentText>
+          {content }
         </DialogContent>
         <DialogActions>
           <Button onClick={props.handleClose}>Close</Button>

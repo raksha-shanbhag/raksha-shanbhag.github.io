@@ -28,7 +28,7 @@ const ContactMe = ({page}) => {
     };
   
     return (
-        <div>
+        <div className='main-background'>
             <Navbar page = {page} />
             <div className= "ContactMe">
                 <div className="outer-card">

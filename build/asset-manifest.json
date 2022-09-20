@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2d26032.chunk.css",
-    "main.js": "/static/js/main.c55d3496.chunk.js",
-    "main.js.map": "/static/js/main.c55d3496.chunk.js.map",
+    "main.css": "/static/css/main.5fcc7728.chunk.css",
+    "main.js": "/static/js/main.0ba5f254.chunk.js",
+    "main.js.map": "/static/js/main.0ba5f254.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.baeb8d0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.baeb8d0a.js.map",
-    "static/js/2.f00decd3.chunk.js": "/static/js/2.f00decd3.chunk.js",
-    "static/js/2.f00decd3.chunk.js.map": "/static/js/2.f00decd3.chunk.js.map",
+    "static/js/2.35d1669a.chunk.js": "/static/js/2.35d1669a.chunk.js",
+    "static/js/2.35d1669a.chunk.js.map": "/static/js/2.35d1669a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e2d26032.chunk.css.map": "/static/css/main.e2d26032.chunk.css.map",
-    "static/js/2.f00decd3.chunk.js.LICENSE.txt": "/static/js/2.f00decd3.chunk.js.LICENSE.txt",
+    "static/css/main.5fcc7728.chunk.css.map": "/static/css/main.5fcc7728.chunk.css.map",
+    "static/js/2.35d1669a.chunk.js.LICENSE.txt": "/static/js/2.35d1669a.chunk.js.LICENSE.txt",
     "static/media/Ford.f1d6c708.png": "/static/media/Ford.f1d6c708.png",
+    "static/media/RSVP-tracker.0bc885d4.PNG": "/static/media/RSVP-tracker.0bc885d4.PNG",
     "static/media/Triyo_me.54c6ecad.jpeg": "/static/media/Triyo_me.54c6ecad.jpeg",
     "static/media/backend.6507fab8.PNG": "/static/media/backend.6507fab8.PNG",
     "static/media/contactMe.css": "/static/media/city_life.938f4210.jpg",
@@ -22,6 +23,7 @@
     "static/media/mix.34892d20.PNG": "/static/media/mix.34892d20.PNG",
     "static/media/mix2.4d2656c8.PNG": "/static/media/mix2.4d2656c8.PNG",
     "static/media/modsoft.9688e52e.PNG": "/static/media/modsoft.9688e52e.PNG",
+    "static/media/modsoft_me.be9b8419.jpeg": "/static/media/modsoft_me.be9b8419.jpeg",
     "static/media/pointClickCare_me.9e1366af.jpeg": "/static/media/pointClickCare_me.9e1366af.jpeg",
     "static/media/professional_pic.5a21e41f.jpeg": "/static/media/professional_pic.5a21e41f.jpeg",
     "static/media/profile_pic.717714cc.PNG": "/static/media/profile_pic.717714cc.PNG",
@@ -29,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.baeb8d0a.js",
-    "static/js/2.f00decd3.chunk.js",
-    "static/css/main.e2d26032.chunk.css",
-    "static/js/main.c55d3496.chunk.js"
+    "static/js/2.35d1669a.chunk.js",
+    "static/css/main.5fcc7728.chunk.css",
+    "static/js/main.0ba5f254.chunk.js"
   ]
 }

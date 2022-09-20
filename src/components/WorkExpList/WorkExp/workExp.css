@@ -24,9 +24,9 @@
 
 .w-right {
     height: inherit;
-    width : 65%;
     text-align: left;
     padding: 1rem;
+    width: 65%
 }
 
 ul {
@@ -78,7 +78,7 @@ ul {
     padding-bottom: 1.5rem;
 }
 
-.tech-stack h2 {
+.w-right h2 {
     color: #d35252;
     font-weight: bold;
 }

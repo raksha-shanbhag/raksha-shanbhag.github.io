@@ -42,6 +42,7 @@ const workExp = ({
                     <h2>Tech Stack</h2>
                     <h4>{workExpPts[0].stack}</h4>
                 </div>
+                <h2 style={{paddingLeft: "2rem"}}>Work</h2>
                 <ul className='text-wrap'>
                     {workTermPoints}
                 </ul>

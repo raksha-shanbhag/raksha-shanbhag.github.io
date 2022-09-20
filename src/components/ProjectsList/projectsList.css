@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     background-color: black;
+    height: inherit;
 }
 
 .pl-texts {
@@ -28,4 +29,28 @@
     width: 100%;
 }
 
+.image-props {
+    max-width:100%;
+    max-height:100%;
+}
 
+/* .iHolder {
+    display: inline-table; 
+     background-color: #f8f8f8;
+     padding: .5em;
+     border: 1px solid #ccc;
+     margin: 0 .5em;
+     width:1%;
+     vertical-align:top;
+}
+
+.iHolder img {
+    border: 1px solid #ccc;
+    width: auto;
+    height: auto;
+}
+
+.iHolder figcaption {
+    text-align: center;
+    padding: 0 .5em;
+} */

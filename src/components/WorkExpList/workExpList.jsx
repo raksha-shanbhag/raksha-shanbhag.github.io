@@ -12,7 +12,7 @@ import Ford1Me from '../../img/workExp/ford_1_me.jpeg'
 import Ford2Me from '../../img/workExp/ford_2_me.jpeg'
 import PCCMe from '../../img/workExp/pointClickCare_me.jpeg'
 import TriyoMe from '../../img/workExp/Triyo_me.jpeg'
-import ModSoftMe from '../../img/workExp/ford_1_me.jpeg'
+import ModSoftMe from '../../img/workExp/modsoft_me.jpeg'
 
 const workExpList = () => {
     return (
