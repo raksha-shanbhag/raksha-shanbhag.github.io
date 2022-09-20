@@ -11,19 +11,17 @@ const Project = (props) => {
     const handleOpen = () => {
         setOpen(true);
     }
-
+    
     return (
         <>
-            {/* <figure class="iHolder">
-                <img src={props.cover} />
-                <figcaption>{props.title}</figcaption>
-            </figure> */}
             <div className='project' onClick={handleOpen}>
                 <h4 className='project-title'>{props.title}</h4>
-                <img
-                    className='image-props'
-                    src = {props.cover}
-                />
+                <div className='image-postioning'>
+                    <img
+                        className='image-props'
+                        src = {props.cover}
+                    />
+                </div>
             </div>
             <ProjectDialog 
                 open = {open}

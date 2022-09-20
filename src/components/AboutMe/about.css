@@ -1,6 +1,4 @@
 .a-page{
-  /* background-image: url("../../img/programmer.jpg");  */
-  /* background-color: black;  */
   background-image: linear-gradient(to bottom, black, grey);
   min-height: 100vh;
   height: max-content;

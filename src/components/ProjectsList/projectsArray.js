@@ -1,26 +1,25 @@
-export const projectPts = {
-    "Full Stack Developer" : [
-        { "stack" : "C#, .NET Entity Framework, SSMS, Postman, Swagger" , "one" : "Contributed to the startup’s Project Management tools for Microsoft add-ins, by solving over 50 tickets and stories under tight deadlines, while collaborating features with product, design, and engineering teams"},
-        { "one" : "Designed endpoints using data access patterns in .NET Framework, to increase API response efficiency"},
-        { "one" : "Developed DML scripts that automate import of more than 60K records of client data to production database, using Transact SQL, to assist bank groups with application onboarding"},
+export const ProjectBulletPoints = {
+    "RSVP-tracker" : [
+        { "link": "https://github.com/raksha-shanbhag/RSVP-tracker", "stack" : "C#, .NET Entity Framework, SQL, Swagger" , "one" : "Implemented async APIs using .NET Entity Framework with swagger documentation using Dependency Injection and Data Access design patterns for users to create virtual invitations and track guest attendance "}
     ],
-    "Software Engineering Intern" : [
-        { "stack" : "Python, Postman, React, Flask, MySQL", "one" : "Designed dynamic React components and Mobile pages complying with Figma designs of UI/UX team that were used by 15 projects across the company using Typescript."},
-        { "one" : "Enhanced Analytics events, by streamlining data from Spring APIs, to track product usage by 85+ organizations"},
+    "Riddle Board Web App" : [
+        { "link" : "https://github.com/raksha-shanbhag/JokerBoard", "stack" : "Python, Postman, React, Flask, MySQL", "one" : "Developed a Dashboard with Riddles that allows user to create, edit and delete riddles using React functional components for displaying content, with pagination support"},
+        { "one" : "Constructed a Python backend server using Flask framework with SQLAlchemy to store and modify data"},
     ],
-    "Software Developer" : [
-        { "stack" : "ExpressJS, MongoDB, EJS", "one" : "Collaborated on a multiplatform testing tool that assists testers run test routines on Ford’s vehicle ECUs"},
-        { "one" : "Designed C++ interfaces and Google Protocol Buffers for test automation using MQTT protocols to establish a communication interface with the ECG hardware while running automated tests"},
-        { "one" : "Implemented GUI features using Python to run multiple test configurations at once, reducing manual work by 70%"},
+    "Minimum Spanning Tree" : [
+        { "link" : "github.com/raksha-shanbhag/Minimum-Spanning-Tree", "stack" : "C++, Kruskal’s Algorithm", "one" : "Implemented MST using Kruskal’s Algorithm, Graphs and Disjoint Set classes to deduce the least weighted path for the MST tree in logarithmic time"},
+        { "one" : "Enhance User Experience by developing commands for edge insertion, tree deletion, weight calculation using data structures to record commands"},
     ],
-    "Software Infrastructure Developer" : [
-        { "stack" : "C++, Google Testing Framework, QNX, Ubuntu 16.04", "one" : "Fixed 25+ defects on Infotainment Software Architecture running on latest generation FORD vehicles using Ubuntu16.04 and QNX virtual environments"},
-        { "one" : "Developed Unit Tests to increase code coverage to 87% using Google’s C++ Testing Framework and STL Library"},
-        { "one" : "Designed Shell Scripts that generate Unit Test coverage reports for the Framework files developed by team"}
-
+    "Multi-Threaded Web Crawler" : [
+        { "stack" : "C++, CURL, Multi-Threading", "one" : "Developed a multi-threaded C++ program that takes a seed URL and fetches unique images from web using CURL"},
+        { "one" : "Incorporated mutexes and conditional variables to prevent race-conditions and allow resource sharing"},
+        { "one" : "Used Data Structures like Hash Tables and Queues to prevent image duplication"}
     ],
-    "Application Developer" : [
-        { "stack" : "VBA, MS Access", "one" : "Designed a VB 6.0 module with the team, for teachers to record academic progress of Special needs students"},
-        { "one" : "Worked on ADO and RDO functionalities with database modifications using SQL queries to incorporate new data"}
+    "Simon Game" : [
+        { "stack" : "javaScript, DOM, jQuery", "one" : "Programmed a memory game that tests user memory through a growing pattern of audio visuals using jQuery and DOM"}
+    ],
+    "Group List" : [
+        { "link" : "https://github.com/raksha-shanbhag/Group-List", "stack" : "ExpressJS, MongoDB, EJS", "one" : "Developed a collaborative platform for users to Login and create and lists together and contribute items to other lists using Express, EJS and MongoDB"},
+        { "one" : "Implemented cookies to store session information and Login authentication with salting and hashing to encrypt passwords in MongoDB database"}
     ]
 } 

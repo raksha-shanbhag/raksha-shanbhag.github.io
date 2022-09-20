@@ -1,0 +1,12 @@
+.projectExp {
+    width: inherit;
+    text-align: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.project-desc {
+    height: inherit;
+    text-align: left;
+    padding: 1rem;
+}

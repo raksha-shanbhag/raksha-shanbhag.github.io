@@ -3,11 +3,11 @@ import Project from './Project/project'
 import Navbar from '../Navbar/navbar';
 
 import RSVP_img from '../../img/projects/RSVP-tracker.PNG'
-import Riddle_img from '../../img/projects/RSVP-tracker.PNG'
-import GroupList_img from '../../img/projects/RSVP-tracker.PNG'
+import Riddle_img from '../../img/projects/RiddleBoard.PNG'
+import GroupList_img from '../../img/projects/groupList.PNG'
 import MST_img from '../../img/projects/MST_tree.png'
-import Simon_img from '../../img/projects/RSVP-tracker.PNG'
-import WebCrawler_img from '../../img/projects/RSVP-tracker.PNG'
+import Simon_img from '../../img/projects/Simon-Game.PNG'
+import WebCrawler_img from '../../img/projects/WebCrawler.png'
 
 const ProjectsList = ({page}) => {
     return (
@@ -16,9 +16,6 @@ const ProjectsList = ({page}) => {
             <div className='projects'>
                 <div className="pl-texts">
                     <h1 className='title'> Projects</h1>
-                    <p className='description'>
-                        These are my side Projects.
-                    </p>
                 </div>
                 <div className="list">
                     <Project cover={RSVP_img} title = "RSVP-tracker"/>

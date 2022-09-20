@@ -8,17 +8,30 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
+import { ProjectBulletPoints } from '../projectsArray.js';
+
 const ProjectDialog = (props) => {
-  const content = (
-      <div>
-        <div className="Description">
-          <h1>This is me</h1>
-          <a> Github link</a>
-          <a> Website </a> 
-        </div>
-        <img>This is content of the card</img>
+  const ProjectPoints = ProjectBulletPoints[props.title];
+
+  const ProjectPts = (
+    ProjectPoints.map((project, index) => {
+      return(<li key={index} className="point">{project.one}</li>);
+    })
+  )
+
+  const card = (
+    <div className='projectExp'>
+      <div className='project-desc'>
+        <div className='tech-stack'>
+          <h2>Tech Stack</h2>
+            <h4>{ProjectPoints[0].stack}</h4>
+          </div>
+          <ul className='text-wrap'>
+            {ProjectPts}
+          </ul>
       </div>
-    );
+    </div>
+  )
 
   return (
     <div>
@@ -34,7 +47,7 @@ const ProjectDialog = (props) => {
             {props.title}
         </DialogTitle>
         <DialogContent dividers={true}>
-          {content }
+          {card }
         </DialogContent>
         <DialogActions>
           <Button onClick={props.handleClose}>Close</Button>

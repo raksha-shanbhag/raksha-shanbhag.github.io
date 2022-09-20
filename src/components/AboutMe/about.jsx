@@ -36,8 +36,13 @@ const AboutMe = () => {
                 I'm Raksha Shanbhag, a third-year Computer Engineering student at University of Waterloo.
               </h2>
               <h2 className="a-desc">
-                I've always had a passion to solve problems with creative solutions. 
-                My career in tech started about 3 years ago, when I had my first internship with Ford. I recent
+              <p>If I has to describe myself in three words, it would be - Passionate Problem Solver.</p>
+              <p>I love to solve problems that seek effective yet creative solutions through technology.</p>
+              <p>I've had 3 years of internship experience in the tech industry, with field experience from Healthcare, Vehicle architecture to FinTech. </p>
+              <p>I have previously worked at Ford, PointClickCare and TS Analytics. At TS analytics, I worked in a startup environment with a team for 3 engineers. </p>
+              <p>I spearheaded multiple feature development initiatives and data imports for Banks. </p>
+              <p>In every internship, I've been consistently awarded "Outstanding", for work term evaluations, due to my ability to take pick up new technologies in a short span, </p>
+              <p>and deliver work of great quality. </p>
               </h2>
             </div>
           </div>
