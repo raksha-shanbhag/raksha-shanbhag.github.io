@@ -10,3 +10,14 @@
     text-align: left;
     padding: 1rem;
 }
+
+.project-desc h2 {
+    color: #d35252;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+.project-desc a{
+    font-weight: 400;
+    text-decoration: none;
+}

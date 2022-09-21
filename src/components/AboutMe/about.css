@@ -47,8 +47,9 @@
   margin: 1.25rem 0px;
 }
 
-.a-desc{
-  font-weight: 300;
+.a-desc p{
+  font-weight: 500;
+  padding-bottom: 0.6rem;
 }
 
 .rotating-box {
