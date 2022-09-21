@@ -24,8 +24,13 @@ const ProjectDialog = (props) => {
       <div className='project-desc'>
         <h2 style={{paddingTop: "0"}}>Tech Stack</h2>
         <h4><i>{ProjectPoints[0].stack}</i></h4>
-        <h2>Link</h2>
-        <a href= {ProjectPoints[0].link}> {(ProjectPoints[0].link).replace('https://','')}</a>
+        { ProjectPoints[0].link !== "none" ?
+          <> 
+            <h2>Link</h2>
+            <a href= {ProjectPoints[0].link} > {(ProjectPoints[0].link).replace('https://','')}</a>
+          </>
+          : <></>
+        }
         <h2>Description</h2>
         <ul className='text-wrap'>
           {ProjectPts}

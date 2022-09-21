@@ -11,7 +11,7 @@ export const ProjectBulletPoints = {
         { "one" : "Enhance User Experience by developing commands for edge insertion, tree deletion, weight calculation using data structures to record commands"},
     ],
     "Multi-Threaded Web Crawler" : [
-        { "link": "", "stack" : "C++, CURL, Multi-Threading", "one" : "Developed a multi-threaded C++ program that takes a seed URL and fetches unique images from web using CURL"},
+        { "link": "none", "stack" : "C++, CURL, Multi-Threading", "one" : "Developed a multi-threaded C++ program that takes a seed URL and fetches unique images from web using CURL"},
         { "one" : "Incorporated mutexes and conditional variables to prevent race-conditions and allow resource sharing"},
         { "one" : "Used Data Structures like Hash Tables and Queues to prevent image duplication"}
     ],
