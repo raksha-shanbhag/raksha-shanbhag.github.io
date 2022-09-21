@@ -29,7 +29,7 @@ const AboutMe = () => {
       <div className="a-page">
         <Navbar />
         <h1 className="a-title">About Me</h1>
-        <div className="a"> 
+        <div className="a container"> 
           <div className="a-right">
             <div className="a-card">
               <h2 className="a-sub">

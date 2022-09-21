@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import Home from '../../img/favicon.PNG'
-import { AppBar, Button } from '@mui/material';
+import { AppBar, Toolbar } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`

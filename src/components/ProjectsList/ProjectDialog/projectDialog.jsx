@@ -44,7 +44,7 @@ const ProjectDialog = (props) => {
         aria-describedby="scroll-dialog-description"
       >
         <DialogTitle id="scroll-dialog-title">
-            {props.title}
+            <h1>{props.title}</h1>
         </DialogTitle>
         <DialogContent dividers={true}>
           {card }

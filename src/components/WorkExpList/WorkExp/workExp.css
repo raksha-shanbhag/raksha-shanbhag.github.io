@@ -2,7 +2,6 @@
     position: relative;
     border-radius: 15%;
     max-height : 20rem;
-    width : auto;
 }
 
 .point {
@@ -15,18 +14,20 @@
     text-align: center;
     display: flex;
     padding: 0.5rem 1rem;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 .w-left {
+    flex: 1;
     height: inherit;
-    width : 35%;
 }
 
 .w-right {
+    flex: 2;
     height: inherit;
     text-align: left;
     padding: 1rem;
-    width: 65%
 }
 
 ul {
@@ -47,7 +48,6 @@ ul {
 }
 
 .work-details {
-    float: left;
     width: 69vw;
     margin-left: 4vw;
 }
@@ -85,4 +85,32 @@ ul {
 
 .tech-stack h4 {
     font-style: italic;
+}
+
+@media screen and (max-width: 900px) { 
+    .workExp {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .Pic {
+        max-width: 100%;
+    }
+    
+    .work-exp-row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .work-details{
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .work-Date {
+        width: 96%;
+        margin-bottom: 1rem;
+    }
 }
