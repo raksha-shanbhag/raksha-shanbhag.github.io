@@ -1,0 +1,124 @@
+.Pic {
+    position: relative;
+    border-radius: 15%;
+    max-height : 20rem;
+}
+
+.point {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.workExp {
+    width: inherit;
+    text-align: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
+
+.w-left {
+    flex: 1;
+    height: inherit;
+}
+
+.w-right {
+    flex: 2;
+    height: inherit;
+    text-align: left;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.work-Date {
+    float: left;
+    border-style: dashed;
+    padding: 0.5vh 12px;
+    width: 10%;
+    height: 100%;
+}
+
+.work-exp-row {
+    display: flex;
+    width: 100%;
+}
+
+.work-details {
+    width: 85%;
+    margin-left: 5%;
+}
+
+.work-accordion {
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 200px;
+}
+
+.accordion-job h4{
+    color: grey;
+    text-align: left;
+    margin: 0
+}
+
+.icon-props {
+    width: auto;
+    height: 50%;
+    margin-right: 1.5rem;
+}
+
+.block {
+    margin : 2rem auto;
+    width : 100%;
+}
+
+.tech-stack {
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.w-right h2 {
+    color: #d35252;
+    font-weight: bold;
+}
+
+.tech-stack h4 {
+    font-style: italic;
+}
+
+@media screen and (max-width: 900px) { 
+    .workExp {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .Pic {
+        max-width: 100%;
+    }
+    
+    .work-exp-row{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .work-details{
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .work-Date {
+        width: 96%;
+        margin-bottom: 1rem;
+    }
+}

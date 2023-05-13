@@ -1,0 +1,135 @@
+.main-background {
+    background-image: url("../../../img/city_life.jpg");
+}
+
+.ContactMe {
+    padding: 2.125rem 6.125rem;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 3.1rem);
+    height: max-content;
+}
+
+.outer-card {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.ContactMe h1 {
+    font-size: 47px;
+    font-weight: 600;
+    color: #d35252;
+    margin-bottom: 1rem;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.description {
+    font-weight: 500;
+    font-size: 23px;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.contact-card {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.contact-methods {
+    overflow: hidden;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f5efef;
+    padding: 15px 20px;
+}
+
+.container input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 16px;
+    resize: vertical;
+}
+
+.container label{
+    font-weight: 600;
+}
+
+.container button {
+    background-color: darkorange;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.container button:hover {
+    background-color: #e49709;
+}
+
+.method {
+    margin: 1.25rem;
+    margin-left: 0;
+    float: left;
+}
+
+.method-title {
+    font-weight : 500;
+}
+
+.method-link {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.contact-icon {
+    float: left;
+    height: 4rem;
+    width: 4rem;
+    margin: 0 2rem;
+    padding: 0.8rem;
+    border: 0.15rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    align-self: center;
+}
+
+.outer-sheet {
+    flex: 1;
+    padding: 0 4rem 0 2rem;
+}
