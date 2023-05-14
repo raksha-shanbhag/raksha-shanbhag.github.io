@@ -40,6 +40,12 @@
     width: 100%;
 }
 
+.exp-6 {
+    animation: 7s anim-lineUp ease-out ;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
 .wex-texts {
     width: 65%;
     margin-bottom: 1.5rem;
