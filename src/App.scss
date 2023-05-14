@@ -172,11 +172,6 @@ body {
     margin: 0;
     margin-bottom: 8px;
   }
-
-  &-block {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 
@@ -188,6 +183,7 @@ body {
     height: max-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 65px calc($content-padding - 75px);
   }
 
@@ -385,8 +381,11 @@ body {
   }
 
   .intro-page {
-    padding: 65px $content-padding 0;
-    height: 100vh;
+    padding: $sidebar-height $content-padding;
+    height: calc(100vh - 3*$sidebar-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .about-page {

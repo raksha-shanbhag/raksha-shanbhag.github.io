@@ -74,7 +74,7 @@ const Sidebar = () => {
         <AppBar className="sidebar" style={{backgroundColor: 'black', width: '100vw', top:'0', left:'0'}}>
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1, height: `${sidebarHeight}px`}} >
-                    <img className={`${baseClass}-main-icon`} src={HomeIcon} alt="icon" />
+                    <img className={`${baseClass}-main-icon`} src={HomeIcon} alt="icon" onClick={()=> scrollToItemMobile('intro')}/>
                 </Typography>
                 <IconButton
                     size="large"
