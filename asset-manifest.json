@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2a24de77.css",
-    "main.js": "/static/js/main.1f876899.js",
+    "main.js": "/static/js/main.4dcfb3f1.js",
     "static/media/city_life.jpg": "/static/media/city_life.938f4210a6b984f74b21.jpg",
     "static/media/intro_pic.png": "/static/media/intro_pic.511c2fdfb4f05658fc31.png",
     "static/media/RiddleBoard.PNG": "/static/media/RiddleBoard.9c11fced21453ce50905.PNG",
@@ -20,14 +20,16 @@
     "static/media/WebCrawler.png": "/static/media/WebCrawler.794301263736e672285f.png",
     "static/media/Simon-Game.PNG": "/static/media/Simon-Game.8e7901c6ba833be52557.PNG",
     "static/media/triyo.webp": "/static/media/triyo.f1bf0c0965e9eb310f9a.webp",
+    "static/media/biorender_me.JPG": "/static/media/biorender_me.08f3d4c513a01d117046.JPG",
     "static/media/MST_tree.png": "/static/media/MST_tree.640b2269991c6a1561e7.png",
     "static/media/modsoft.PNG": "/static/media/modsoft.9688e52e25d504ea7a04.PNG",
+    "static/media/biorender.svg": "/static/media/biorender.20f61d9f7e0fe49204fa6023c3ecb98a.svg",
     "index.html": "/index.html",
     "main.2a24de77.css.map": "/static/css/main.2a24de77.css.map",
-    "main.1f876899.js.map": "/static/js/main.1f876899.js.map"
+    "main.4dcfb3f1.js.map": "/static/js/main.4dcfb3f1.js.map"
   },
   "entrypoints": [
     "static/css/main.2a24de77.css",
-    "static/js/main.1f876899.js"
+    "static/js/main.4dcfb3f1.js"
   ]
 }
