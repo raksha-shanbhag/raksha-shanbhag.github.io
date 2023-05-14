@@ -3,12 +3,14 @@ import WorkTerm from './WorkExp/workExp';
 import Ford from '../../../img/workExp/Ford.png';
 import PCC from '../../../img/workExp/pointclickcare.png';
 import Triyo from '../../../img/workExp/triyo.webp';
+import BioRender from '../../../img/workExp/biorender.svg';
 import ModSoft from '../../../img/workExp/modsoft.PNG';
 import Ford1Me from '../../../img/workExp/ford_1_me.jpeg'
-import Ford2Me from '../../../img/workExp/ford_2_me.jpeg'
-import PCCMe from '../../../img/workExp/pointClickCare_me.jpeg'
-import TriyoMe from '../../../img/workExp/Triyo_me.jpeg'
-import ModSoftMe from '../../../img/workExp/modsoft_me.jpeg'
+import Ford2Me from '../../../img/workExp/ford_2_me.jpeg';
+import PCCMe from '../../../img/workExp/pointClickCare_me.jpeg';
+import TriyoMe from '../../../img/workExp/Triyo_me.jpeg';
+import ModSoftMe from '../../../img/workExp/modsoft_me.jpeg';
+import BioRenderMe from '../../../img/workExp/biorender_me.JPG';
 
 const WorkExperience = () => {
     return (
@@ -18,6 +20,15 @@ const WorkExperience = () => {
             </div> 
             <div className="exp-1">
                 <WorkTerm 
+                    title = "Software Growth Engineering Intern" 
+                    icon = {BioRender}
+                    date = "Jan 2023 to Apr 2023"
+                    company = "BioRender"
+                    workPic = {BioRenderMe}
+                />
+            </div>
+            <div className="exp-2">
+                <WorkTerm 
                     title = "Full Stack Developer" 
                     icon = {Triyo}
                     date = "May 2022 to Aug 2022"
@@ -25,7 +36,7 @@ const WorkExperience = () => {
                     workPic = {TriyoMe}
                 />
             </div>
-            <div className="exp-2">
+            <div className="exp-3">
                 <WorkTerm 
                     title = "Software Engineering Intern" 
                     icon = {PCC}
@@ -34,7 +45,7 @@ const WorkExperience = () => {
                     workPic = {PCCMe}
                 />
             </div>
-            <div className="exp-3">
+            <div className="exp-4">
                 <WorkTerm 
                     title = "Software Developer" 
                     icon = {Ford}
@@ -43,7 +54,7 @@ const WorkExperience = () => {
                     workPic = {Ford2Me}
                 />
             </div>
-            <div className="exp-4">
+            <div className="exp-5">
                 <WorkTerm 
                     title = "Software Infrastructure Developer" 
                     icon = {Ford}
@@ -52,7 +63,7 @@ const WorkExperience = () => {
                     workPic = {Ford1Me}
                 />
             </div>
-            <div className="exp-5">
+            <div className="exp-6">
                 <WorkTerm 
                     title = "Application Developer" 
                     icon = {ModSoft}

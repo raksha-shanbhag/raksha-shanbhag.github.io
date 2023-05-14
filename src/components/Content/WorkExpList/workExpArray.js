@@ -1,4 +1,11 @@
 export const workExpTermPoints = {
+    "Software Growth Engineering Intern" : [
+        {"stack" : "Express, React, TypeScript, MongoDB, Metabase, Dbt Cloud", "one" : "Implemented feature experiments and data migrations using Express, MongoDB and React to identify product qualified leads on the app leading to a 100K growth in pipeline"},
+        { "one" : "Performed A/B testing on feature experiments to enhance user conversion rates resulting in a 24% increase of response rates"},
+        { "one" : "Conducted data analysis using SQL and Metabase to identify trends in feature interaction and optimize growth strategies"},
+        { "one" : "Created event models on Dbt Cloud to measure impact on user engagement, enabling data-driven decision making"},
+        { "one" : "Collaborated with Sales, Data, Design teams to conduct market research and experiment features that improve UI/UX"}
+    ],
     "Full Stack Developer" : [
         { "stack" : ".NET Entity Framework, C#, React, Transact Sql", "one" : "Contributed to the startup’s Project Management tools for Microsoft add-ins, by solving over 50 tickets and stories under tight deadlines, while collaborating features with product, design, and engineering teams"},
         { "one" : "Designed endpoints using data access patterns in .NET Framework, to increase API response efficiency"},
