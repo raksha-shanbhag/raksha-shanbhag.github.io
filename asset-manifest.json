@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a58083d8.css",
-    "main.js": "/static/js/main.4dcfb3f1.js",
+    "main.css": "/static/css/main.adaa4321.css",
+    "main.js": "/static/js/main.50a22851.js",
     "static/media/city_life.jpg": "/static/media/city_life.938f4210a6b984f74b21.jpg",
     "static/media/intro_pic.png": "/static/media/intro_pic.511c2fdfb4f05658fc31.png",
     "static/media/RiddleBoard.PNG": "/static/media/RiddleBoard.9c11fced21453ce50905.PNG",
@@ -24,12 +24,13 @@
     "static/media/MST_tree.png": "/static/media/MST_tree.640b2269991c6a1561e7.png",
     "static/media/modsoft.PNG": "/static/media/modsoft.9688e52e25d504ea7a04.PNG",
     "static/media/biorender.svg": "/static/media/biorender.20f61d9f7e0fe49204fa6023c3ecb98a.svg",
+    "static/media/resume.svg": "/static/media/resume.a56e7bfd0631f1145fb5e31d9761a615.svg",
     "index.html": "/index.html",
-    "main.a58083d8.css.map": "/static/css/main.a58083d8.css.map",
-    "main.4dcfb3f1.js.map": "/static/js/main.4dcfb3f1.js.map"
+    "main.adaa4321.css.map": "/static/css/main.adaa4321.css.map",
+    "main.50a22851.js.map": "/static/js/main.50a22851.js.map"
   },
   "entrypoints": [
-    "static/css/main.a58083d8.css",
-    "static/js/main.4dcfb3f1.js"
+    "static/css/main.adaa4321.css",
+    "static/js/main.50a22851.js"
   ]
 }
