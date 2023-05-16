@@ -1,12 +1,12 @@
 import Typed from 'react-typed';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ArticleIcon from '@mui/icons-material/Article';
+import ResumeIcon from '../../../img/resume.svg';
 import { linkedIn, gitHub } from '../Contact/contactMe';
 
 const baseClass = 'intro'
 
-const resumeLink = ''
+const resumeLink = 'https://drive.google.com/file/d/1bwvISW505ox1uKnrPMGaSrYsKTdJhJYq/view?usp=sharing'
 
 const Intro = () => {
     return (
@@ -37,7 +37,7 @@ const Intro = () => {
                         <LinkedInIcon className={`${baseClass}-icon ${baseClass}-linkedIn`}/>
                     </a>
                     <a href = {resumeLink} target="_blank" rel="noreferrer">
-                        <ArticleIcon className={`${baseClass}-icon ${baseClass}-resume`}/>
+                        <img alt="resume" src={ResumeIcon} className={`${baseClass}-icon ${baseClass}-resume`} />
                     </a>
                 </div>
             </div>
